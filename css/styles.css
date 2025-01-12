@@ -1,0 +1,44 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif; /* Elige una fuente legible */
+    margin: 0; /* Elimina márgenes por defecto */
+  }
+  
+  header {
+    background-color: #f0f0f0; /* Color de fondo del encabezado */
+    padding: 20px; /* Espacio interno del encabezado */
+    text-align: center; /* Centra el texto del encabezado */
+  }
+  
+  main {
+    padding: 20px; /* Espacio interno del contenido principal */
+  }
+  
+  section {
+    margin-bottom: 20px; /* Espacio entre secciones */
+  }
+  
+  /* Estilos para la sección de presentación */
+  .presentacion {
+    text-align: center; /* Centra el texto */
+  }
+  
+  .presentacion h2 {
+    color: #333; /* Color del título */
+  }
+  
+  /* Estilos para la sección de información */
+  .informacion h3 {
+    color: #333; /* Color de los subtítulos */
+  }
+  
+  /* Estilos para la sección de contacto */
+  .contacto form {
+    display: flex; /* Alinea los elementos del formulario en columna */
+    flex-direction: column;
+    width: 300px; /* Ajusta el ancho del formulario */
+    margin: 0 auto; /* Centra el formulario */
+  }
+  
+  .contacto label {
+    margin-bottom: 5px; /* Espacio entre etiquetas
