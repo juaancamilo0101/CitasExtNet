@@ -8,3 +8,12 @@ formulario.addEventListener('submit', function(event) {
 
   alert('¡Formulario enviado!'); // Muestra un mensaje de confirmación
 });
+
+function mostrarInformacion(visado) {
+  // Oculta todas las secciones de visados
+  const visados = document.querySelectorAll('.visado');
+  visados.forEach(v => v.style.display = 'none');
+
+  // Muestra la sección seleccionada
+  document.getElementById(visado).style.display = 'block';
+}
