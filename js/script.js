@@ -9,11 +9,30 @@ formulario.addEventListener('submit', function(event) {
   alert('¡Formulario enviado!'); // Muestra un mensaje de confirmación
 });
 
-function mostrarInformacion(visado) {
-  // Oculta todas las secciones de visados
-  const visados = document.querySelectorAll('.visado');
-  visados.forEach(v => v.style.display = 'none');
+const formularioGoogle = document.querySelector('.contacto iframe');
 
-  // Muestra la sección seleccionada
-  document.getElementById(visado).style.display = 'block';
-}
+formularioGoogle.onload = function() {
+  // Obtiene el formulario dentro del iframe
+  const formularioGoogle = this.contentWindow.document.querySelector('form');
+
+  // Añade un event listener al formulario de Google
+  formularioGoogle.addEventListener('submit', function() {
+    // Recarga la sección del formulario después de 1 segundo
+    setTimeout(function() {
+      document.querySelector('.contacto').innerHTML = formulario.outerHTML; 
+    }, 1000);
+  });
+};
+
+
+//validar solo numeros en formulario contacto
+const phoneInput = document.getElementById('phone');
+
+phoneInput.addEventListener('keypress', function(event) {
+  const charCode = (event.which) ? event.which : event.keyCode;
+
+  // Permitir solo números (códigos ASCII del 48 al 57)
+  if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+    event.preventDefault();
+  }
+});
