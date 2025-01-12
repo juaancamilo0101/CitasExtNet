@@ -48,13 +48,17 @@ nav a {
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 110px 20px;
-  color: white; 
+  padding: 144px 20px;
+  color: rgb(255, 255, 255); 
 }
 
 .bienvenida h2 {
   font-size: 3em;
   margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center !important;
 }
 
 .bienvenida p {
