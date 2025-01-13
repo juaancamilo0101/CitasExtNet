@@ -1,20 +1,18 @@
 /* Estilos generales */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
   min-height: 100vh;
-  flex-direction: column; 
+  flex-direction: column;
   min-height: 100vh; /* Asegura que el body ocupe al menos la altura de la pantalla */
- 
 }
 
 .contacto iframe {
-  width: 100%; 
-  height: 110vh /* O ajusta la altura a un valor fijo */
+  width: 100%;
+  height: 110vh; /* O ajusta la altura a un valor fijo */
 }
-
 
 main {
   flex: 1; /* Permite que el contenido principal se expanda */
@@ -50,7 +48,7 @@ nav a {
   background-position: center;
   text-align: center;
   padding: 144px 20px;
-  color: rgb(255, 255, 255); 
+  color: rgb(255, 255, 255);
 }
 
 .bienvenida h2 {
@@ -68,7 +66,7 @@ nav a {
 }
 
 .bienvenida button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 15px 30px;
   border: none;
@@ -142,7 +140,7 @@ nav a {
 
 .contacto button {
   padding: 10px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   cursor: pointer;
@@ -162,9 +160,6 @@ footer {
   padding: 20px;
 }
 
-
-
-
 /* Media queries para responsive design */
 @media (max-width: 768px) {
   .contenedor-servicios {
@@ -183,7 +178,6 @@ footer {
   word-spacing: 0.1em; /* Ajusta el espaciado entre palabras */
 }
 .card {
- 
   height: 300px; /* Ajusta la altura de las tarjetas */
 }
 .servicios {

@@ -1,101 +1,597 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Información - Asesoría de Extranjería</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/styles.css"> 
-</head>
-<body>
-    <header class="bg-dark text-light py-4"> 
-        <div class="container">
-            <h1>Asesoría y Cita previa de Extranjería Zaragoza</h1>
-            <nav class="navbar navbar-expand-lg navbar-dark"> 
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> 
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
-                            <li class="nav-item"><a class="nav-link" href="informacion.html">Información</a></li>
-                            <li class="nav-item"><a class="nav-link" href="centrosEstudios.html">Centros de estudio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-      </header>
-
-      
-    <main class="container"> 
-        <section class="informacion py-5">
-            <h2>Información sobre Visados</h2>
-          
-            <div class="accordion" id="acordionVisados">
-          
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="encabezadoEstudios">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#colapsoEstudios" aria-expanded="false" aria-controls="colapsoEstudios">
-                    Visa de Estudios
-                  </button>
-                </h2>
-                <div id="colapsoEstudios" class="accordion-collapse collapse" aria-labelledby="encabezadoEstudios" data-bs-parent="#acordionVisados">
-                  <div class="accordion-body">
-                    <p>Información sobre la visa de estudios...</p> 
-                    </div>
-                </div>
-              </div>
-          
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="encabezadoTrabajo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#colapsoTrabajo" aria-expanded="false" aria-controls="colapsoTrabajo">
-                    Visa de Trabajo
-                  </button>
-                </h2>
-                <div id="colapsoTrabajo" class="accordion-collapse collapse" aria-labelledby="encabezadoTrabajo" data-bs-parent="#acordionVisados">
-                  <div class="accordion-body">
-                    <p>Información sobre la visa de trabajo...</p> 
-                  </div>
-                </div>
-              </div>
-          
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="encabezadoResidencia">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#colapsoResidencia" aria-expanded="false" aria-controls="colapsoResidencia">
-                    Visa de Residencia
-                  </button>
-                </h2>
-                <div id="colapsoResidencia" class="accordion-collapse collapse" aria-labelledby="encabezadoResidencia" data-bs-parent="#acordionVisados">
-                  <div class="accordion-body">
-                    <p>Información sobre la visa de residencia...</p> 
-                  </div>
-                </div>
-              </div>
-          
-            </div>       
-          </section>
-
-        <section class="informacion-util py-5">
-            <div class="container text-center">
-                <h2>Información útil</h2>
-                <ul class="list-unstyled"> 
-                    <li><a href="https://extranjeros.inclusion.gob.es/" target="_blank" class="text-decoration-none">Página web oficial de Extranjería</a></li>             
-                </ul>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header class="bg-dark text-light py-4">
+      <div class="container">
+        <h1>Asesoría y Cita previa de Extranjería Zaragoza</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="informacion.html">Información</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="centrosEstudios.html"
+                    >Centros de estudio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
             </div>
-        </section>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="informacion py-5">
+        <h2>Información sobre Visados</h2>
+
+        <div class="accordion" id="acordionVisados">
+          <!-- 1 Prórroga de estancia de corta duración  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="encabezadoUno">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#colapsoUno"
+                aria-expanded="false"
+                aria-controls="colapsoEstudios"
+              >
+                Prórroga de estancia de corta duración
+              </button>
+            </h2>
+            <div
+              id="colapsoUno"
+              class="accordion-collapse collapse"
+              aria-labelledby="encabezadoUno"
+              data-bs-parent="#acordionVisados"
+            >
+              <div class="accordion-body">
+                <p>
+                  Prorrogar, excepcionalmente, la estancia del extranjero que
+                  haya entrado en España para fines que no sean de trabajo o
+                  residencia, salvo en los casos de ser titular de un visado
+                  para búsqueda de empleo.
+                </p>              
+                <p>
+                  Fuente: 
+                  <a href="https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_prorrogaestancia_cortaduracion.php" target="_blank">
+                    Página oficial de extranjería
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 2  Tarjeta de estudiantes para extranjeros inicial o renovación -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="encabezadoDos">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#colapsoDos"
+                aria-expanded="false"
+                aria-controls="colapsoEstudios"
+              >
+                Tarjeta de estudiantes para extranjeros inicial o renovación
+              </button>
+            </h2>
+            <div
+              id="colapsoDos"
+              class="accordion-collapse collapse"
+              aria-labelledby="encabezadoDos"
+              data-bs-parent="#acordionVisados"
+            >
+              <div class="accordion-body">
+                <p>
+                  Documento destinado a identificar al extranjero a los efectos
+                  de acreditar su situación legal en España.
+                </p>              
+                <p>
+                  Fuente: 
+                  <a href="https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_tarjetaestudiantesextranjeros_inicial_renovacion.php" target="_blank">
+                    Página oficial de extranjería
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 3 Asignación de NIE a instancia de interesado -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="encabezadoTres">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#colapsoTres"
+                aria-expanded="false"
+                aria-controls="colapsoEstudios"
+              >
+                Asignación de NIE a instancia de interesado
+              </button>
+            </h2>
+            <div
+              id="colapsoTres"
+              class="accordion-collapse collapse"
+              aria-labelledby="encabezadoTres"
+              data-bs-parent="#acordionVisados"
+            >
+              <div class="accordion-body">
+                <p>
+                  Asignación de NIE para los extranjeros que se relacionen con
+                  España por razón de sus intereses económicos, profesionales o
+                  sociales.
+                </p>           
+                <p>
+                  Fuente: 
+                  <a href="https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_asignacion_nie.php" target="_blank">
+                    Página oficial de extranjería
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 4 Cédula de inscripción -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="encabezadoCuatro">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#colapsoCuatro"
+                aria-expanded="false"
+                aria-controls="colapsoEstudios"
+              >
+                Cédula de inscripción
+              </button>
+            </h2>
+            <div
+              id="colapsoCuatro"
+              class="accordion-collapse collapse"
+              aria-labelledby="encabezadoCuatro"
+              data-bs-parent="#acordionVisados"
+            >
+              <div class="accordion-body">
+                <p>
+                  Es un documento impreso que se dota al extranjero que no puede
+                  ser documentado por las autoridades de ningún país y que desea
+                  ser documentado por España, una vez se haya resuelto su
+                  inscripción en el Registro Central de Extranjeros.
+                </p>          
+                <p>
+                  Fuente: 
+                  <a href="https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_cedula_inscripcion.php" target="_blank">
+                    Página oficial de extranjería
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 5 Certificado de residente -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="encabezadoCinco">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#colapsoCinco"
+                aria-expanded="false"
+                aria-controls="colapsoEstudios"
+              >
+                Certificado de residente
+              </button>
+            </h2>
+            <div
+              id="colapsoCinco"
+              class="accordion-collapse collapse"
+              aria-labelledby="encabezadoCinco"
+              data-bs-parent="#acordionVisados"
+            >
+              <div class="accordion-body">
+                <p>
+                  Acreditar ante otros organismos periodos de residencia legal
+                  en España.
+                </p>             
+                <p>
+                  Fuente: 
+                  <a href="https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_certificado_residente.php" target="_blank">
+                    Página oficial de extranjería
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 6 Certificado de no residente -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="encabezadoSeis">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#colapsoSeis"
+                aria-expanded="false"
+                aria-controls="colapsoEstudios"
+              >
+                Certificado de no residente
+              </button>
+            </h2>
+            <div
+              id="colapsoSeis"
+              class="accordion-collapse collapse"
+              aria-labelledby="encabezadoSeis"
+              data-bs-parent="#acordionVisados"
+            >
+              <div class="accordion-body">
+                <p>
+                  Acreditar la condición de extranjero no residente en España.
+                </p>            
+                <p>
+                  Fuente: 
+                  <a href="https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_certificado_noresidente.php" target="_blank">
+                    Página oficial de extranjería
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 7 Autorización expedición carta de invitación -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="encabezadoSiete">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#colapsoSiete"
+                aria-expanded="false"
+                aria-controls="colapsoEstudios"
+              >
+                Autorización expedición carta de invitación
+              </button>
+            </h2>
+            <div
+              id="colapsoSiete"
+              class="accordion-collapse collapse"
+              aria-labelledby="encabezadoSiete"
+              data-bs-parent="#acordionVisados"
+            >
+              <div class="accordion-body">
+                <p>
+                  Regular los términos y requisitos que ha de cumplir el
+                  particular para realizar una invitación a favor de un
+                  extranjero, asumiendo el compromiso de costear durante el
+                  periodo de estancia del beneficiario todos los gastos
+                  relativos a su alojamiento.
+                </p>           
+                <p>
+                  Fuente: 
+                  <a href="https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_autorizacionexpedicion_cartainvitacion.php" target="_blank">
+                    Página oficial de extranjería
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 8 Estatuto de Apátrida -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="encabezadoOcho">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#colapsoOcho"
+                aria-expanded="false"
+                aria-controls="colapsoEstudios"
+              >
+                Estatuto de Apátrida
+              </button>
+            </h2>
+            <div
+              id="colapsoOcho"
+              class="accordion-collapse collapse"
+              aria-labelledby="encabezadoOcho"
+              data-bs-parent="#acordionVisados"
+            >
+              <div class="accordion-body">
+                <p>
+                  Solicitud para el reconocimiento del estatuto de apátrida.
+                  Apátrida es toda persona que no sea considerada como nacional
+                  suyo por ningún Estado, conforme a su legislación.
+                </p>              
+                <p>
+                  Fuente: 
+                  <a href="https://sede.policia.gob.es/portalCiudadano/sede_electronica/extranjeria/formulario_solicitud_apatrida_rellenable.pdf" target="_blank">
+                    Página oficial de extranjería
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 9 Certificado de registro de ciudadano de la UE -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="encabezadoNueve">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#colapsoNueve"
+                aria-expanded="false"
+                aria-controls="colapsoEstudios"
+              >
+                Certificado de registro de ciudadano de la UE
+              </button>
+            </h2>
+            <div
+              id="colapsoNueve"
+              class="accordion-collapse collapse"
+              aria-labelledby="encabezadoNueve"
+              data-bs-parent="#acordionVisados"
+            >
+              <div class="accordion-body">
+                <p>
+                  Es el documento que acredita la inscripción en el Registro
+                  Central de Extranjeros de los ciudadanos de un Estado miembro
+                  de la Unión Europea o de otro Estado parte en el Acuerdo sobre
+                  el Espacio Económico Europeo que van a residir en España por
+                  un periodo superior a tres meses.
+                </p>                
+                <p>
+                  Fuente: 
+                  <a href="https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_certificadoregistro_ciudadanoue.php" target="_blank">
+                    Página oficial de extranjería
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 10 Tarjeta inicial o renovación residencia o residencia y trabajo -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="encabezadoDiez">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#colapsoDiez"
+                aria-expanded="false"
+                aria-controls="colapsoEstudios"
+              >
+                Tarjeta inicial o renovación residencia o residencia y trabajo
+              </button>
+            </h2>
+            <div
+              id="colapsoDiez"
+              class="accordion-collapse collapse"
+              aria-labelledby="encabezadoDiez"
+              data-bs-parent="#acordionVisados"
+            >
+              <div class="accordion-body">
+                <p>
+                  Documento destinado a identificar al extranjero a los efectos
+                  de acreditar su situación legal en España.
+                </p>              
+                <p>
+                  Fuente: 
+                  <a href="https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_tarjeta_residencia_residenciaytrabajo.php" target="_blank">
+                    Página oficial de extranjería
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 11 Tarjeta de residencia de familiar de ciudadano de la Unión Europea  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="encabezadoOnce">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#colapsoOnce"
+                aria-expanded="false"
+                aria-controls="colapsoEstudios"
+              >
+                Tarjeta de residencia de familiar de ciudadano de la Unión
+                Europea
+              </button>
+            </h2>
+            <div
+              id="colapsoOnce"
+              class="accordion-collapse collapse"
+              aria-labelledby="encabezadoOnce"
+              data-bs-parent="#acordionVisados"
+            >
+              <div class="accordion-body">
+                <p>
+                  Documento destinado a identificar al extranjero a los efectos
+                  de acreditar su situación legal en España.
+                </p>                
+                <p>
+                  Fuente: 
+                  <a href="https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_tarjetaresidencia_defamiliardeciudadano.php" target="_blank">
+                    Página oficial de extranjería
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 12 Autorización y renovación residencia temporal por circunstancias excepcionales -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="encabezadoDoce">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#colapsoDoce"
+                aria-expanded="false"
+                aria-controls="colapsoEstudios"
+              >
+                Autorización y renovación residencia temporal por circunstancias
+                excepcionales
+              </button>
+            </h2>
+            <div
+              id="colapsoDoce"
+              class="accordion-collapse collapse"
+              aria-labelledby="encabezadoDoce"
+              data-bs-parent="#acordionVisados"
+            >
+              <div class="accordion-body">
+                <p>
+                  Autorización y renovación residencia temporal por
+                  circunstancias excepcionales (colaboración con autoridades
+                  policiales, fiscales o judiciales, o razones de seguridad
+                  nacional, así como por colaboración en la lucha contra redes
+                  organizadas o contra la trata de seres humanos)
+                </p>                
+                <p>
+                  Fuente: 
+                  <a href="https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_residenciatemporal_circunstanciasexcepcionales.php" target="_blank">
+                    Página oficial de extranjería
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 13 Autorización de regreso  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="encabezadoTrece">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#colapsoTrece"
+                aria-expanded="false"
+                aria-controls="colapsoEstudios"
+              >
+                Autorización de regreso
+              </button>
+            </h2>
+            <div
+              id="colapsoTrece"
+              class="accordion-collapse collapse"
+              aria-labelledby="encabezadoTrece"
+              data-bs-parent="#acordionVisados"
+            >
+              <div class="accordion-body">
+                <p>
+                  Documento que se expide al extranjero cuya autorización de
+                  residencia o de estancia se encuentre en periodo de renovación
+                  o prórroga. Le permite la salida de España y posterior retorno
+                  al territorio nacional dentro de un plazo de 90 días.
+                </p>            
+                <p>
+                  Fuente: 
+                  <a href="https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_autorizacionregreso.php" target="_blank">
+                    Página oficial de extranjería
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 14 Tarjeta de residencia de larga duración-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="encabezadoCatorce">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#colapsoCatorce"
+                aria-expanded="false"
+                aria-controls="colapsoEstudios"
+              >
+                Tarjeta de residencia de larga duración
+              </button>
+            </h2>
+            <div
+              id="colapsoCatorce"
+              class="accordion-collapse collapse"
+              aria-labelledby="encabezadoCatorce"
+              data-bs-parent="#acordionVisados"
+            >
+              <div class="accordion-body">
+                <p>
+                  Documento destinado a identificar al extranjero a los efectos
+                  de acreditar su situación legal en España. Se halla en
+                  situación de residencia de larga duración el extranjero que
+                  haya sido autorizado a residir y trabajar en España
+                  indefinidamente en las mismas condiciones que los españoles.
+                </p>
+                <p>
+                  Fuente: 
+                  <a href="https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_tarjetaresidencia_largaduracion.php" target="_blank">
+                    Página oficial de extranjería
+                  </a>
+                </p> 
+              </div>
+            </div>
+          </div>
+          <!-- FIN -->
+        </div>
+      </section>
+
+      <section class="informacion-util py-5">
+        <div class="container text-center">
+          <h2>Información útil</h2>
+          <ul class="list-unstyled">
+            <li>
+              <a
+                href="https://extranjeros.inclusion.gob.es/"
+                target="_blank"
+                class="text-decoration-none"
+                >Página web oficial de Extranjería</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <footer class="bg-dark text-light py-3">
-        <div class="container text-center">
-          <p>&copy; 2025 Juan Camilo Peña Marín</p>
-        </div>
-      </footer>
+      <div class="container text-center">
+        <p>&copy; 2025 Juan Camilo Peña Marín</p>
+      </div>
+    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="/js/script.js"></script> 
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/script.js"></script>
+  </body>
 </html>
