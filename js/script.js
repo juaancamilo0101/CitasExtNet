@@ -36,3 +36,22 @@ phoneInput.addEventListener('keypress', function(event) {
     event.preventDefault();
   }
 });
+
+
+// js para Informacion.html 
+
+const accordion = document.getElementById('acordionVisados');
+
+accordion.addEventListener('show.bs.collapse', function (event) {
+  const colapsoActual = event.target;
+  const elementosColapso = accordion.querySelectorAll('.accordion-collapse');
+
+  elementosColapso.forEach(elemento => {
+    if (elemento !== colapsoActual && elemento.classList.contains('show')) {
+      const bsCollapse = new bootstrap.Collapse(elemento, {
+        toggle: false
+      });
+      bsCollapse.hide();
+    }
+  });
+});

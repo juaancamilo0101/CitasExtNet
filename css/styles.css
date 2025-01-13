@@ -7,6 +7,7 @@ body {
   min-height: 100vh;
   flex-direction: column; 
   min-height: 100vh; /* Asegura que el body ocupe al menos la altura de la pantalla */
+ 
 }
 
 .contacto iframe {
@@ -173,4 +174,37 @@ footer {
   .servicio {
     width: 90%; /* Ajusta el ancho de las tarjetas en pantallas pequeñas */
   }
+}
+
+/* ------------------------ CSS PARA SERVICIOS.HTML --------------------------------- */
+
+.card-text {
+  text-align: justify;
+  word-spacing: 0.1em; /* Ajusta el espaciado entre palabras */
+}
+.card {
+ 
+  height: 300px; /* Ajusta la altura de las tarjetas */
+}
+.servicios {
+  /* ... otros estilos ... */
+  margin-bottom: 30px; /* Ajusta el margen inferior */
+}
+/* ------------------------------- CSS PARA INFORMACION.HTML -------------------------------- */
+/* Estilos para el acordeón  */
+.accordion-button {
+  background-color: #eee; /* Color de fondo del botón */
+  border: none; /* Sin borde */
+}
+
+.accordion-button:hover {
+  background-color: #ddd; /* Color de fondo al pasar el ratón */
+}
+
+.accordion-button:focus {
+  box-shadow: none; /* Sin sombra al hacer foco */
+}
+
+.accordion-body {
+  padding: 20px; /* Espacio interno del contenido */
 }
