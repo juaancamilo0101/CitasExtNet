@@ -9,21 +9,6 @@ formulario.addEventListener("submit", function (event) {
   alert("¡Formulario enviado!"); // Muestra un mensaje de confirmación
 });
 
-const formularioGoogle = document.querySelector(".contacto iframe");
-
-formularioGoogle.onload = function () {
-  // Obtiene el formulario dentro del iframe
-  const formularioGoogle = this.contentWindow.document.querySelector("form");
-
-  // Añade un event listener al formulario de Google
-  formularioGoogle.addEventListener("submit", function () {
-    // Recarga la sección del formulario después de 1 segundo
-    setTimeout(function () {
-      document.querySelector(".contacto").innerHTML = formulario.outerHTML;
-    }, 1000);
-  });
-};
-
 //validar solo numeros en formulario contacto
 const phoneInput = document.getElementById("phone");
 
@@ -58,3 +43,26 @@ acordeones.forEach(accordion => {
     });
   });
 });
+
+
+
+const formularioContacto = document.getElementById('formulario-contacto');
+const mensajeConfirmacion = document.getElementById('mensaje-confirmacion');
+
+    formulario.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      // Envía el formulario con EmailJS
+      emailjs.sendForm('service_lsgxslh', 'template_01vbe8a', this)
+        .then(function() {
+            console.log('SUCCESS!');
+            // Oculta el formulario
+            formulario.style.display = 'none';
+            // Muestra el mensaje de confirmación
+            mensajeConfirmacion.style.display = 'block';
+            formulario.reset(); 
+        }, function(error) {
+            console.log('FAILED...', error);
+            alert('Error al enviar el formulario. Por favor, inténtalo de nuevo más tarde.');
+        });
+    });

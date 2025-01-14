@@ -202,3 +202,12 @@ footer {
 .accordion-body {
   padding: 20px; /* Espacio interno del contenido */
 }
+
+/* ---------------------- Centro estudios --------------------------- */
+
+
+
+.btn-warning:hover {
+  filter: brightness(1.1); /* Aumenta el brillo un 10% */
+ 
+}
