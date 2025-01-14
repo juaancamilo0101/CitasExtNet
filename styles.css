@@ -43,7 +43,7 @@ nav a {
 
 /* Estilos para la sección de bienvenida */
 .bienvenida {
-  background-image: url("/img/espanaFondo.jpeg"); /* Reemplaza con la ruta de tu imagen */
+  background-image: url("../CitasExt/img/espanaFondo.jpeg"); /* Reemplaza con la ruta de tu imagen */
   background-size: cover;
   background-position: center;
   text-align: center;
