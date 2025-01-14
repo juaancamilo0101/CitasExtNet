@@ -1,0 +1,13 @@
+# Ignorar la carpeta node_modules
+node_modules/
+
+# Ignorar archivos específicos
+.env 
+credentials.json
+
+# Ignorar archivos temporales
+*.tmp
+*.log
+
+# Ignorar archivos de caché
+Thumbs.db
