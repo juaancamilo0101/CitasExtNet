@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juaancamilo0101/CitasExt.git"
+    "url": "git+https://github.com/juaancamilo0101/CitasExtNet.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/juaancamilo0101/CitasExt/issues"
+    "url": "https://github.com/juaancamilo0101/CitasExtNet/issues"
   },
-  "homepage": "https://github.com/juaancamilo0101/CitasExt#readme",
+  "homepage": "https://github.com/juaancamilo0101/CitasExtNet#readme",
   "dependencies": {
     "@emailjs/browser": "^4.4.1"
   }
