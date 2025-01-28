@@ -1,6 +1,6 @@
 This favicon was generated using the following font:
 
-- Font Title: Lato
+- Font Title: Hind
 - Font Author: undefined
-- Font Source: https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHvxk6XweuBCY.ttf
+- Font Source: https://fonts.gstatic.com/s/hind/v17/5aU69_a8oxmIRG5yBROzkDM.ttf
 - Font License: undefined)
